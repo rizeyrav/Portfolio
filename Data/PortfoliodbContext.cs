@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 public class PortfoliodbContext : DbContext{
     // Deklarasi Model
-    public DbSet<Profile> Profile { get; set; }
-    public DbSet<Education> Education { get; set; }
-    public DbSet<Project> Project { get; set; }
+    public DbSet<Profile>? Profile { get; set; }
+    public DbSet<Education>? Education { get; set; }
+    public DbSet<Project>? Project { get; set; }
 
     public PortfoliodbContext(DbContextOptions<PortfoliodbContext> options) : base(options){
 
