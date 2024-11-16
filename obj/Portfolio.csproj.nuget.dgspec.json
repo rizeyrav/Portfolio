@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CSh\\PortfolioApp1\\Portfolio\\Portfolio.csproj": {}
+    "D:\\CSh\\Portfolio\\Portfolio.csproj": {}
   },
   "projects": {
-    "D:\\CSh\\PortfolioApp1\\Portfolio\\Portfolio.csproj": {
+    "D:\\CSh\\Portfolio\\Portfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CSh\\PortfolioApp1\\Portfolio\\Portfolio.csproj",
+        "projectUniqueName": "D:\\CSh\\Portfolio\\Portfolio.csproj",
         "projectName": "Portfolio",
-        "projectPath": "D:\\CSh\\PortfolioApp1\\Portfolio\\Portfolio.csproj",
+        "projectPath": "D:\\CSh\\Portfolio\\Portfolio.csproj",
         "packagesPath": "C:\\Users\\Rifqi\\.nuget\\packages\\",
-        "outputPath": "D:\\CSh\\PortfolioApp1\\Portfolio\\obj\\",
+        "outputPath": "D:\\CSh\\Portfolio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rifqi\\AppData\\Roaming\\NuGet\\NuGet.Config"
