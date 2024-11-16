@@ -3,7 +3,8 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Portfolio.Models{
-    public class Portfolio{
+    public class Profile{
+        public Profile(){ }
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id {get; set;}

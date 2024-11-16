@@ -18,6 +18,9 @@ namespace Portfolio.Models{
         [DataType(DataType.DateTime)]
         [Column("Waktu Selesai")]
         [Display(Name="Waktu Selesai")]
-        public DateTime? Waktu_Selesai { get; set; }        
+        public DateTime? Waktu_Selesai { get; set; }
+        public required Profile Profile { get; set; }
+        [ForeignKey("Profile")]
+        public int Profile_Id { get; set; }
     }
 }

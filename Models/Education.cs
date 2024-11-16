@@ -23,6 +23,10 @@ namespace Portfolio.Models{
         [Display(Name="Lulus Pendidikan")]
         [DisplayFormat(DataFormatString = "{0:dd-mm-yyyy}",ApplyFormatInEditMode = true)]
         public DateTime? Lulus { get; set; }
+        public required Profile Profile { get; set; }
+
+        [ForeignKey("Profile")]
+        public required int Profile_Id { get; set; }
     }
 }
 public enum eduLevel{
