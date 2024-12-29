@@ -1,5 +1,6 @@
 E:\Portfolio\bin\Debug\net8.0\appsettings.Development.json
 E:\Portfolio\bin\Debug\net8.0\appsettings.json
+E:\Portfolio\bin\Debug\net8.0\Portfolio.staticwebassets.runtime.json
 E:\Portfolio\bin\Debug\net8.0\Portfolio.exe
 E:\Portfolio\bin\Debug\net8.0\Portfolio.deps.json
 E:\Portfolio\bin\Debug\net8.0\Portfolio.runtimeconfig.json
@@ -10,6 +11,9 @@ E:\Portfolio\obj\Debug\net8.0\Portfolio.AssemblyInfoInputs.cache
 E:\Portfolio\obj\Debug\net8.0\Portfolio.AssemblyInfo.cs
 E:\Portfolio\obj\Debug\net8.0\Portfolio.csproj.CoreCompileInputs.cache
 E:\Portfolio\obj\Debug\net8.0\Portfolio.MvcApplicationPartsAssemblyInfo.cache
+E:\Portfolio\obj\Debug\net8.0\Portfolio.RazorAssemblyInfo.cache
+E:\Portfolio\obj\Debug\net8.0\Portfolio.RazorAssemblyInfo.cs
+E:\Portfolio\obj\Debug\net8.0\Portfolio.sourcelink.json
 E:\Portfolio\obj\Debug\net8.0\staticwebassets.build.json
 E:\Portfolio\obj\Debug\net8.0\staticwebassets.development.json
 E:\Portfolio\obj\Debug\net8.0\staticwebassets\msbuild.Portfolio.Microsoft.AspNetCore.StaticWebAssets.props
