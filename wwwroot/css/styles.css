@@ -1,0 +1,55 @@
+/* Theme : Tema (:root) */
+:root{
+    --primary: #2C3E50;
+    --secondary: #ADFF2F;
+    /* --secondary: #FFD166; */
+    --accent: #FFD166;
+}
+/* Base : CSS Dasar : reset / normalisasi */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    /* border-box lebar elemen tetap */
+    text-decoration: none;
+}
+nav{
+    margin: 1.2rem 0;
+    padding: 0 0 0.7rem 0;
+    text-decoration: none;
+    justify-items: center;
+    font-size: x-large;
+    border-bottom: 5px solid var(--accent);
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li>a{
+    margin: 0 1.2rem;
+    color: var(--secondary);
+    text-decoration: none;
+}
+body{
+    background-color: var(--primary);
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    height: 100vh;
+}
+main{
+    margin: 1rem 2rem ;
+}
+.card{
+    width: 25%;
+    height: 60%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 2px solid var(--accent);
+    border-radius: 5%;
+}
+.card-footer{
+    justify-self: center;
+}
+/* Layout : Pengaturan tata letak */
+/* Component : Pengaturan Form,Tombol,Navbar dll */
+/* Ultilities : Margin, Padding, Text alignment */

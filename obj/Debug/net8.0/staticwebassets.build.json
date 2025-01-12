@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uD4rMUDP15kXO7e0hfAUV4pTuIWftBx13iqcXVuOSdY=",
+  "Hash": "8/LA/9zK74HfG/VK/hxqOu3uRPLAU82L8r/LhCyE7oA=",
   "Source": "Portfolio",
   "BasePath": "_content/Portfolio",
   "Mode": "Default",
@@ -15,5 +15,25 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "E:\\Portfolio\\wwwroot\\css\\styles.css",
+      "SourceId": "Portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Portfolio\\wwwroot\\",
+      "BasePath": "_content/Portfolio",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    }
+  ]
 }
