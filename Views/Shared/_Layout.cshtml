@@ -8,10 +8,14 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navbar"> 
             <ul>
-                <li><a href="Home">Home</a></li>
-                <li><a href="Project">Project</a></li>
+                <li>
+                    <a asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li>
+                    <a asp-controller="Project" asp-action="Index">Project</a>
+                </li>
             </ul>
         </nav>
     </header>

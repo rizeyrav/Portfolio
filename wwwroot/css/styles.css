@@ -13,7 +13,7 @@
     /* border-box lebar elemen tetap */
     text-decoration: none;
 }
-nav{
+.navbar{
     margin: 1.2rem 0;
     padding: 0 0 0.7rem 0;
     text-decoration: none;
@@ -36,20 +36,35 @@ body{
     color: #FFFFFF;
     height: 100vh;
 }
-main{
-    margin: 1rem 2rem ;
+.container{
+    margin: 1.2rem 1.7rem;
+    border: 3px solid black;
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 95vw;
+    height: 80vh;
+    display: flex;
 }
-.card{
+.menu{
+    box-sizing: border-box;
+    border: 3px solid #1f1f1f;
+    margin: 0.7rem 0.4rem;
+    padding: 0.6rem 0.6rem;
+    width: 30%;
+    height: 25%;
+    background-color: var(--accent);
+}
+/* .card{
     width: 25%;
-    height: 60%;
+    height: 75vh;
     margin: 0.5rem;
     padding: 0.5rem;
-    border: 2px solid var(--accent);
+    border: 8px solid var(--accent);
     border-radius: 5%;
 }
 .card-footer{
     justify-self: center;
-}
+} */
 /* Layout : Pengaturan tata letak */
 /* Component : Pengaturan Form,Tombol,Navbar dll */
 /* Ultilities : Margin, Padding, Text alignment */

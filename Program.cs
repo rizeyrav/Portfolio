@@ -6,6 +6,8 @@ var app = builder.Build();
 
 //Konfigurasi Request Http
 app.UseStaticFiles();
+//Menambahkan Routing
+app.UseRouting();
 
 //Konfigurasi Routes
 app.MapControllerRoute(
