@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8/LA/9zK74HfG/VK/hxqOu3uRPLAU82L8r/LhCyE7oA=",
+  "Hash": "b99IQZ6KE9RWJB3INmk88/V2QefcuTB1YKGvF3tI8hY=",
   "Source": "Portfolio",
   "BasePath": "_content/Portfolio",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "E:\\Portfolio\\wwwroot\\js\\script.js",
+      "SourceId": "Portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Portfolio\\wwwroot\\",
+      "BasePath": "_content/Portfolio",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
     }
   ]
 }

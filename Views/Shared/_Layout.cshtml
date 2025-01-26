@@ -14,7 +14,7 @@
                     <a asp-controller="Home" asp-action="Index">Home</a>
                 </li>
                 <li>
-                    <a asp-controller="Project" asp-action="Index">Project</a>
+                    <a asp-controller="Profile" asp-action="Index">Profile</a>
                 </li>
             </ul>
         </nav>
@@ -23,5 +23,26 @@
         @RenderBody()
     </main>
     <footer></footer>
+    <script src="~/js/script.js"></script>
 </body>
 </html>
+
+@* <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> @ViewData["Title"] - Portfolio </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a asp-controller="Home" asp-action="Index">Home</a>
+            <a asp-controller="Profile" asp-action="Index">Profile</a>
+        </nav>
+    </header>
+    <main>
+            @RenderBody();
+    </main>
+</body>
+</html> *@

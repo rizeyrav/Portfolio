@@ -54,6 +54,74 @@ body{
     height: 25%;
     background-color: var(--accent);
 }
+/* Button */
+.button{
+    font-size: x-large;
+    text-decoration: none;
+    color: #EEEEEE;
+    margin: 0.3rem;
+    padding: 0.3rem;
+    background-color: var(--primary);
+    max-width: min-content;
+    max-height: min-content;
+    border: 2px solid var(--accent);
+    border-radius: 10%;
+    cursor: pointer;    
+}
+
+/* Modal */
+.modal{
+    display: none;
+    width: 70%;
+    height: 100%;
+    background-color: rgba(70, 69, 69, 0.5);
+    position: fixed;
+    left: 14%;
+    top: 0;
+    overflow: auto;
+    align-self: center;
+}
+.content{
+    /* display: block; */
+    font: var(--accent);
+    background-color: var(--primary);
+    margin: 8% auto;
+    padding: 1.5rem;
+    width: 80%;
+    animation: fadeIn 0.3 ease;
+    border: 2px solid var(--accent);
+}
+form{
+    /* justify-items: center; */
+    /* border: 5px solid var(--secondary); */
+    max-width: 100%;
+    display: flexbox;
+    font-size: larger;
+}
+
+label{
+    margin: 1rem 0.5rem auto;
+    font: bold;
+
+}
+input{
+    width: 100%;
+    padding: auto;
+    padding: 0.5rem;
+    border: 2px solid var(--secondary);
+    margin: 0 1rem 0 0;
+}
+
+
+/* Animasi Masuk */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    } to{
+        opacity: 1;
+    }
+}
+
 /* .card{
     width: 25%;
     height: 75vh;
