@@ -1,7 +1,8 @@
-// Membuat kelas portfoliodbcontext
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using Portfolio.Models;
 
+// Membuat kelas portfoliodbcontext
 public class PortfoliodbContext : DbContext {
     // Constructor untuk menginisialisasi DbContext
     public PortfoliodbContext(DbContextOptions<PortfoliodbContext>options) : base(options) 

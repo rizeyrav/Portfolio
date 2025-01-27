@@ -1,6 +1,8 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 // Membuat Kelas untuk Model Profile
+
+namespace Portfolio.Models;
 public class Profile{
     //Menggunakan Data annotation 
     [Key]
